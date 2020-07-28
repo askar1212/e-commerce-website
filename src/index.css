@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+
+.productPage{
+  background:#f4f9fd;
+  margin-top: -20px;
+}
+.heading{
+  font-weight: 500;
+  /* margin-top: 5vh; */
+  padding: 20px 0px 0px 65px ;
+  font-family: 'Raleway', sans-serif;
+}
+.userName{
+  padding: 0px 0px 0px 65px ;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+}
+.visitStore{
+  padding: 8px 43px;
+  margin-left: 60px;
+  font-weight: 600;
+  font-family: 'Raleway', sans-serif;
+  background: #ffffff;
+    color: #333333;
+    box-shadow: 0 6px 10px -5px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    text-align: center;
+}
+.centerContainer{
+  background: white;
+  margin-left: 3vw;
+  height: auto;
+  margin-bottom: 2vh;
+}
+
+.subHeading{
+  padding: 0px 0px 10px 65px ;
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+
+}
+.likes{
+  margin-top: 0vh;
+  margin-left: -1.7vw;
+  font-family: 'Raleway', sans-serif;
+  font-size: 11.5px;
+  color: #a5a5a5;
+}
+.mainContent{
+  display: grid;
+  grid-template-columns: 17.5% 55% 20%;
+}
+.leftContainer{
+  min-height: 40vh;
+}
+.imgDiv{
+  margin-left: 60px;
+  background-color: white;
+}
+
+.userImg{
+  padding: 7px 5px 4px 7.5px;
+  width: 90%;
+}
+.mainImg{
+  border: 3px solid #ddd;
+  width: 99%;
+}
+.mainImgDiv{
+  margin: 2.5%;;
+}
+.subImgDiv{
+  width:10.75vw;
+  float: left;
+  margin-left: 1.5vw;
+  cursor: pointer;
+}
+.subImg{
+  border: 3px solid #ddd;
+  width: 100%;
+}
+.subImgActive{
+  width: 100%;
+  border: 3px solid #01b888;
+}
+.bottomLikeLinks{
+  background: #ffffff;
+  border: 1px solid #ccd4da;
+  border-radius: 2px;
+  padding:8px 12px 8px 12px;
+  color: #a5a5a5;
+  font-size: 13px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+.bottomLikeLinks:hover{
+  color:#1d99ff;
+  cursor: pointer;
+}
+.bottomLinks{
+  display:grid;
+  grid-template-columns: 23% 20% 20%;
+  padding: 4vh 0vh 2vh 3vh;
+  border-bottom: 1px solid #f5f5f5;
+}
+.descriptionDiv{
+  padding: 5px 20px 10px 20px;
+  font-family: 'Raleway', sans-serif;
+}
+.descriptionDiv h4{
+  font-size: 16px;
+  font-weight: 600;
+}
+.descriptionDiv p{
+  font-size: 14px;
+  font-weight: 500;
+  color: #626262;
+    line-height: 23px;
+}
+.specificationDiv{
+  padding: 0px 18px 10px 20px;
+  font-family: 'Raleway', sans-serif;
+}
+.specificationDiv h4{
+  font-size: 16px;
+  font-weight: 600;
+}
+.tableHeading{
+  font-size: 15px;
+  font-weight: 600;
+  padding: 3px 0px 3px 3px;
+  border-right: 1px solid #eeeeee;
+}
+
+.tableRow{
+  padding-left: 30px;
+  font-size: 14px;
+}
+.eachTableRow{
+
+  border-bottom: 1px solid #eeeeee;
+}
+table{
+
+  border-collapse: collapse;
+  width: 100%;
+  border-spacing: 10px;
+}
+.rightContainer{
+  font-family: 'Raleway', sans-serif;
+  margin-left: 3vw;
+  box-shadow: 0 6px 10px -5px rgba(0, 0, 0, 0.1);
+    padding:0px 0px 10px 20px;
+    background: #fff;
+    height: 35vh;
+} 
+.rightContainer h4{
+  font-weight: 400;
+  font-size: 16px;
+}
+.rightContainer h3{
+  font-size: 23px;
+}
+.perPiece{
+  font-weight: 400;
+  font-size: 16px;
+}
+.option{
+  margin: 0px;
+    padding-bottom: 6px;
+    font-size: 12px;
+}
+.rightContainer .pcInputField .option .selectHome1{
+background: none;
+    border: none;
+    /* outline: none; */
+    border-bottom: 1px solid #ffffff;
+    width: 100%;
+    min-height: 55px;
+    /* color: #fff; */
+    font-size: 23px;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+}
+.rightButton{
+  width: 80%;
+  color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    border: 1px solid #01b888;
+    background: #01b888 ;
+    padding: 12px 0px;
+    display: block;
+    margin-top: 18px;
+    border-radius: 3px;
+    text-align: center;
+}
+ .rightContainer h5 {
+   color: #5a5a5a;
+    font-size: 14px;
+    /* padding-top: 14px; */
+    padding-bottom: 35px;
+}
+.rightContainer h5 i {
+margin-right: 8px;
+}
+ 
